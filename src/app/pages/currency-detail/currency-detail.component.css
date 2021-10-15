@@ -1,0 +1,41 @@
+body{
+    background: #151924;
+    min-height: 100vh
+}
+.detail{
+    padding-top: 150px;
+}
+.detail .title{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    color:#1DD1A1
+}
+.detail .subtitle{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    color:#1DD1A1
+}
+.detail .link{
+    font-size: 18px;
+    font-weight: 600;
+    color:#1DD1A1;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #151924;
+}
+
+.detail .card{
+    padding: 2vw;
+    background-color: #1B2130; 
+    border: none;
+    border-radius: 0;
+}
+
+
+

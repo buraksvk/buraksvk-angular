@@ -1,0 +1,34 @@
+export const PriceModelItems = [
+    {
+        coin:"BTCUSDT",
+        prices:"49,372.8",
+        change:"+1.08%",
+        volume:"79,534,346.88",
+        isUp:true,
+        inUSDT:"$2.15"
+    },
+    {
+        coin:"ETHUSDT",
+        prices:"2,815.8",
+        change:"-0.32%",
+        volume:"12,199,346.04",
+        isUp:false,
+        inUSDT:"$2.15"
+    },
+    {
+        coin:"ADAUSDT",
+        prices:"336.8",
+        change:"+4.22%",
+        volume:"2,764,996.34",
+        isUp:true,
+        inUSDT:"$2.15"
+    },
+    {
+        coin:"AVAXUSDT",
+        prices:"42.9",
+        change:"-1.02%",
+        volume:"1,534,346.23",
+        isUp:false,
+        inUSDT:"$2.15"
+    }
+]

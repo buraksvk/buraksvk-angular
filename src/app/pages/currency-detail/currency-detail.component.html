@@ -1,0 +1,36 @@
+<html>
+
+<body>
+    <div class="detail contain ">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div>
+                        <span class="title mr-5">{{routeId}}</span>
+                        <span class="subtitle mr-5">Price: {{PriceInfo.prices}}</span>
+                        <span class="subtitle mr-5">Volume: {{PriceInfo.volume}}</span>
+                        <span class="subtitle mr-5">Change: {{PriceInfo.change}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 col-xl-3 mt-4">
+                <div class="card" style="min-height: 50vh;">
+                    <div *ngFor="let item of PriceItems">
+                        <a class="link " href="/currency-detail/{{item.coin}}" >
+                            <span style="color: #1DD1A1;">{{item.coin}}</span>
+                            <span style="color: #1DD1A1;">{{item.prices}}</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 col-xl-9 mt-4">
+                <div class="card" style="min-height: 50vh;">
+                    <div style="height:380px" id="technical-analysis"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
